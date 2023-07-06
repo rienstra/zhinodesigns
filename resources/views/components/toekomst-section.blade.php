@@ -1,6 +1,6 @@
-<div class="py-40">
+<div data-aos="fade-up" data-aos-delay="50" id="toekomst" class="py-40">
     <div class="max-w-6xl mx-auto pb-20">
-        <h2 class="text-5xl pb-6 font-[500]">Plannen</h2>
+        <h2 class="text-5xl pb-6 font-[500]">Toekomst</h2>
         <p class="font-[300]">Explore your creativity with thousands of inspiring classes in design, interface</p>
     </div>
 

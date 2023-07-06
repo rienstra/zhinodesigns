@@ -1,23 +1,10 @@
 <x-layout>
     <div>
-        <div class="max-w-6xl mx-auto pt-8 pb-14 relative">
-            <div class="flex justify-between pb-20">
-                <div class="flex gap-2">
-                    <p class=" font-[400]">NL</p>
-                    <div class="text-gray-400 font-[200]">|</div>
-                    <p class="text-gray-400 font-[200]">EN</p>
-                </div>
-                <img class="h-32 w-auto" src="{{ Vite::image('zhino-logo.png')}}" alt="zhinologo">
-                <nav class="w-fit text-right font-[300]">
-                    <x-nav-item route="home">Home</x-nav-item>
-                    <x-nav-item route="showroom">Showroom</x-nav-item>
-                    <x-nav-item route="showroom">Plannen</x-nav-item>
-                    <x-nav-item route="showroom">Contact</x-nav-item>
-                </nav>
-            </div>
+
+        <div class="max-w-6xl mx-auto pt-8 pb-14 mt-10 relative">
 
             <div class="pb-28">
-                <h1 class="text-5xl pb-8 w-5/6 font-[500]">Versterk jouw Bedrijf met Professionele Belettering en Grafische Diensten</h1>
+                <h1 class="text-5xl pb-8 w-5/6 font-[500]">{{ __('messages.title') }}</h1>
                 <p class="font-[300] w-4/6 leading-7">Ontdek de kracht van professionele belettering en grafische diensten bij ZhinoDesigns.
                     Wij bieden de perfecte reclame- en marketingoplossingen om jouw bedrijf te laten groeien.
                 </p>
@@ -35,6 +22,8 @@
 
     <x-showroom-section />
 
-    <x-plannen-section />
+    <x-toekomst-section />
+
+    <x-contact />
 
 </x-layout>

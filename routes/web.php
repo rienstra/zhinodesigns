@@ -1,5 +1,6 @@
 <?php
 
+use App\Actions\SwitchLanguageAction;
 use App\Providers\AppServiceProvider;
 use Illuminate\Support\Facades\Route;
 
@@ -14,4 +15,22 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-AppServiceProvider::menuRoutes();
+Route::get('/', function () {
+    app(SwitchLanguageAction::class)('nl');
+
+    return view('home');
+});
+
+Route::get('/en', function () {
+    app(SwitchLanguageAction::class)('en');
+
+    return view('home');
+});
+
+Route::get('contact', function () {
+    return view('contact');
+});
+
+Route::get('/switch-lang/{lang}', 'App\Http\Controllers\LangController@switchLang')->name('switchLang');
+
+
