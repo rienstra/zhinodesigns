@@ -1,6 +1,6 @@
 {
   "resources/css/app.css": {
-    "file": "assets/app-357d42c7.css",
+    "file": "assets/app-4c7646ab.css",
     "isEntry": true,
     "src": "resources/css/app.css"
   },
@@ -49,7 +49,7 @@
     "src": "resources/images/zhino-logo.png"
   },
   "resources/js/app.js": {
-    "file": "assets/app-0d91dc04.js",
+    "file": "assets/app-ca18866a.js",
     "isEntry": true,
     "src": "resources/js/app.js"
   }

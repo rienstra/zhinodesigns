@@ -1,7 +1,7 @@
 <div id="contact" class="bg-[#121212]">
-    <div data-aos="fade-up" data-aos-delay="50" class="max-w-2xl mx-5 md:mx-auto py-20 ">
+    <div data-aos="fade-up" data-aos-delay="50" class="max-w-2xl px-6 md:mx-auto py-20 ">
         <h2 class="text-2xl md:text-3xl font-bold text-[#15ED92]">Wat kunnen we voor jouw betekenen?</h2>
-        <p class="mt-6 text-lg leading-8 text-white">
+        <p class="mt-6 md:text-lg leading-8 text-white">
             Of je nu op zoek bent naar een specifieke dienst, advies nodig hebt of gewoon meer wilt weten over wat we doen, aarzel niet en neem contact met ons op!
         </p>
         <dl class="mt-10 space-y-4 text-base leading-7 text-white">
