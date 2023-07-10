@@ -1,6 +1,12 @@
 <x-layout>
-    <div>
 
+    <a href="#home" class="z-50 fixed bottom-4 right-4 bg-gray-800 p-2 rounded-full text-white">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6">
+            <path d="M12 19V5M5 12l7-7 7 7" />
+        </svg>
+    </a>
+
+    <div>
         <div class="max-w-6xl mx-auto pt-8 px-6 pb-4 md:pb-14 md:mt-10 relative">
             <div class="md:pb-28">
                 <h1 class="text-2xl md:text-5xl pb-4 md:pb-8 md:w-5/6 font-[500]">{{ __('messages.title') }}</h1>
@@ -11,7 +17,7 @@
         </div>
 
         <div class="flex justify-center pb-4">
-            <a href="#" class="inline-flex items-center mx-auto gap-2 font-[300] pb-6 text-neutral-600">
+            <a href="#showroom" class="inline-flex items-center mx-auto gap-2 font-[300] pb-6 text-neutral-600">
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M11.25 10a.75.75 0 0 0 1.5 0V7a.75.75 0 0 0-1.5 0v3Z"/><path fill="currentColor" fill-rule="evenodd" d="M18.75 9.074a6.75 6.75 0 0 0-13.5 0v5.852a6.75 6.75 0 0 0 13.5 0V9.074Zm-5.931-5.186a5.25 5.25 0 0 1 4.431 5.186v5.852a5.25 5.25 0 0 1-10.5 0V9.074a5.25 5.25 0 0 1 6.069-5.186Z" clip-rule="evenodd"/></svg>
                 Meer Lezen
             </a>

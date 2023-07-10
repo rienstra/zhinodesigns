@@ -1,6 +1,6 @@
 {
   "resources/css/app.css": {
-    "file": "assets/app-4c7646ab.css",
+    "file": "assets/app-30dd712c.css",
     "isEntry": true,
     "src": "resources/css/app.css"
   },
@@ -8,37 +8,37 @@
     "file": "assets/art1-5ca89326.png",
     "src": "resources/images/art1.png"
   },
-  "resources/images/showcase1.jpg": {
-    "file": "assets/showcase1-866ae2ad.jpg",
-    "src": "resources/images/showcase1.jpg"
+  "resources/images/showcase1.webp": {
+    "file": "assets/showcase1-ca7336d1.webp",
+    "src": "resources/images/showcase1.webp"
   },
-  "resources/images/showcase2.jpg": {
-    "file": "assets/showcase2-700ce12f.jpg",
-    "src": "resources/images/showcase2.jpg"
+  "resources/images/showcase2.webp": {
+    "file": "assets/showcase2-074fd271.webp",
+    "src": "resources/images/showcase2.webp"
   },
   "resources/images/showcase3.webp": {
     "file": "assets/showcase3-a5b8a3d9.webp",
     "src": "resources/images/showcase3.webp"
   },
-  "resources/images/showcase4.jpg": {
-    "file": "assets/showcase4-e30c224b.jpg",
-    "src": "resources/images/showcase4.jpg"
+  "resources/images/showcase4.webp": {
+    "file": "assets/showcase4-36f7bcab.webp",
+    "src": "resources/images/showcase4.webp"
   },
-  "resources/images/showcase5.jpg": {
-    "file": "assets/showcase5-5ba4f4b9.jpg",
-    "src": "resources/images/showcase5.jpg"
+  "resources/images/showcase5.webp": {
+    "file": "assets/showcase5-735468aa.webp",
+    "src": "resources/images/showcase5.webp"
   },
-  "resources/images/showcase6.jpg": {
-    "file": "assets/showcase6-6d78f1c0.jpg",
-    "src": "resources/images/showcase6.jpg"
+  "resources/images/showcase6.webp": {
+    "file": "assets/showcase6-47a0d41e.webp",
+    "src": "resources/images/showcase6.webp"
   },
-  "resources/images/showcase7.jpg": {
-    "file": "assets/showcase7-052d2c23.jpg",
-    "src": "resources/images/showcase7.jpg"
+  "resources/images/showcase7.webp": {
+    "file": "assets/showcase7-20d263a2.webp",
+    "src": "resources/images/showcase7.webp"
   },
-  "resources/images/showcase8.jpg": {
-    "file": "assets/showcase8-74a11fa2.jpg",
-    "src": "resources/images/showcase8.jpg"
+  "resources/images/showcase8.webp": {
+    "file": "assets/showcase8-9dfed3ae.webp",
+    "src": "resources/images/showcase8.webp"
   },
   "resources/images/stairs.webp": {
     "file": "assets/stairs-e2103521.webp",

@@ -21,6 +21,8 @@
 
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.css" rel="stylesheet" />
+
     @livewireStyles
 </head>
 <body style="font-family: 'poppins', sans-serif">
@@ -38,6 +40,24 @@
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
     AOS.init();
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.js"></script>
+
+<script>
+    document.addEventListener('alpine:init', () => {
+        Alpine.data('scrollButton', () => ({
+            showScrollButton: false,
+            scrollToTop() {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            },
+        }));
+    });
+
+    document.addEventListener('scroll', () => {
+        var button = document.querySelector("[x-show='showScrollButton']");
+        button.style.display = (window.pageYOffset > 300) ? 'block' : 'none';
+    });
 </script>
 
 @livewireScripts

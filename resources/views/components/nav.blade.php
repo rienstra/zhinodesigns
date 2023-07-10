@@ -1,4 +1,4 @@
-<nav class="bg-white" x-data="{ open: false }">
+<nav class="bg-white" x-data="{ open: false }" id="home">
     <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <div class="flex h-36 items-center w-full justify-between">
             <a href=" {{ url("/") }}" class="shrink-0">
@@ -37,10 +37,10 @@
     <!-- Mobile menu, show/hide based on menu state. -->
     <div x-show="open" x-cloak class="sm:hidden" id="mobile-menu">
         <div class="space-y-1 px-2 pb-3 pt-2">
-            <a href="#" class="block rounded-md px-3 py-2 text-base text-gray-900 underline underline-offset-8">Home</a>
-            <a href="#" class="block rounded-md px-3 py-2 text-base text-gray-900 hover:underline underline-offset-8">Showroom</a>
-            <a href="#" class="block rounded-md px-3 py-2 text-base text-gray-900 hover:underline underline-offset-8">Toekomst</a>
-            <a href="#" class="block rounded-md px-3 py-2 text-base text-gray-900 hover:underline underline-offset-8">Contact</a>
+            <a href="{{ url('/') }}" class="block rounded-md px-3 py-2 text-base text-gray-900 hover:underline underline-offset-8">Home</a>
+            <a href="#showroom" class="block rounded-md px-3 py-2 text-base text-gray-900 hover:underline underline-offset-8">Showroom</a>
+            <a href="#toekomst" class="block rounded-md px-3 py-2 text-base text-gray-900 hover:underline underline-offset-8">Toekomst</a>
+            <a href="#contact" class="block rounded-md px-3 py-2 text-base text-gray-900 hover:underline underline-offset-8">Contact</a>
         </div>
     </div>
 </nav>
