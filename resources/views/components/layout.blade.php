@@ -23,6 +23,10 @@
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.css" rel="stylesheet" />
 
+    <link rel="icon" type="image/png" href="{{ asset('favicon.png') }}">
+    <link rel="alternate icon" type="image/png" href="{{ asset('favicon-dark.png') }}" media="(prefers-color-scheme: dark)">
+
+
     @livewireStyles
 </head>
 <body style="font-family: 'poppins', sans-serif">
