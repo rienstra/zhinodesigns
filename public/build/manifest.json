@@ -1,6 +1,6 @@
 {
   "resources/css/app.css": {
-    "file": "assets/app-30dd712c.css",
+    "file": "assets/app-16f1ce8d.css",
     "isEntry": true,
     "src": "resources/css/app.css"
   },
@@ -47,6 +47,10 @@
   "resources/images/zhino-logo.png": {
     "file": "assets/zhino-logo-faacddb3.png",
     "src": "resources/images/zhino-logo.png"
+  },
+  "resources/images/zhino-white.png": {
+    "file": "assets/zhino-white-93a721c8.png",
+    "src": "resources/images/zhino-white.png"
   },
   "resources/js/app.js": {
     "file": "assets/app-ca18866a.js",

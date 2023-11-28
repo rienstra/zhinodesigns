@@ -29,7 +29,7 @@
 
     @livewireStyles
 </head>
-<body style="font-family: 'poppins', sans-serif">
+<body style="font-family: 'satoshi', sans-serif">
 
 <x-nav />
 <main>
@@ -37,9 +37,9 @@
     {{ $slot }}
 
 </main>
-@if(!isset($hideFooter) || $hideFooter === false)
-    <x-footer />
-@endif
+{{--@if(!isset($hideFooter) || $hideFooter === false)--}}
+{{--    <x-footer />--}}
+{{--@endif--}}
 
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
